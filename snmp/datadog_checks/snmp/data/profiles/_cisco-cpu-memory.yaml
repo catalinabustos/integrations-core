@@ -39,18 +39,3 @@ metrics:
     metric_tags:
       - tag: mem
         index: 1
-
-  - MIB: CISCO-MEMORY-POOL-MIB
-    table:
-      OID: 	1.3.6.1.4.1.9.9.48.1.2
-      name: ciscoMemoryPoolUtilizationTable
-    symbols:
-      - OID: 1.3.6.1.4.1.9.9.48.1.2.1.1
-        # This is the memory pool utilization for 1 minute.
-        name: ciscoMemoryPoolUtilization1Min
-      - OID: 1.3.6.1.4.1.9.9.48.1.2.1.2
-        # This is the memory pool utilization for 5 minutes.
-        name: ciscoMemoryPoolUtilization5Min
-    metric_tags:
-      - tag: mem.pool
-        index: 2
