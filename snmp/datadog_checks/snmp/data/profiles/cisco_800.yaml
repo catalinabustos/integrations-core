@@ -1,7 +1,6 @@
 extends:
   - _base.yaml
   - _cisco-generic.yaml
-##  - _cisco-old-cpu-memory.yaml
 
 device:
   vendor: "cisco"
