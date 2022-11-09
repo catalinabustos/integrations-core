@@ -1,7 +1,7 @@
 # CPU and memory metrics for Cisco devices.
 
 metrics:
-  - MIB: OLD-CISCO-CPU-MIB
+  - MIB: LBMSH-MIB
     symbol:
       #OID: 1.3.6.1.4.1.9.2.1.56
       # CPU busy percentage in the last 5 second period
