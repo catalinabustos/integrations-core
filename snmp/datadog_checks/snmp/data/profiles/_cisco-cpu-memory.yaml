@@ -3,15 +3,16 @@
 metrics:
   - MIB: LBMSH-MIB
     symbol:
-      #OID: 1.3.6.1.4.1.9.2.1.56
-      # CPU busy percentage in the last 5 second period
-      OID: 1.3.6.1.2.1.2.2.1.1.1
+      OID: 1.3.6.1.4.1.9.2.1.56
+      CPU busy percentage in the last 5 second period
       name: busyPer
+
   - MIB: OLD-CISCO-CPU-MIB
     symbol:
       OID: 1.3.6.1.4.1.9.2.1.57
         # 1 minute exponentially-decayed moving average of the CPU busy percentage
       name: avgBusy1
+      
   - MIB: OLD-CISCO-CPU-MIB
     symbol:
       OID: 1.3.6.1.4.1.9.2.1.58
